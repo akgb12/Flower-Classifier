@@ -1,6 +1,5 @@
 import json
 import joblib
-import numpy as np
 import pandas as pd
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
@@ -94,7 +93,7 @@ def get_sample_predictions():
 
 @app.post("/predict", response_model=PredictionResponse)
 def predict(data: IrisInput):
-    # Preserve feature names so the pipeline's StandardScaler doesn't warn
+    # Preserve feature names so the pipeline's StandardScaler does not warn
     features = pd.DataFrame([{
         "sepal_length": data.sepal_length,
         "sepal_width": data.sepal_width,
