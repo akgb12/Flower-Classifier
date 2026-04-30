@@ -110,7 +110,6 @@ def predict(data: IrisInput):
     probs = {}
     for i in range(len(CLASS_NAMES)):
         probs[CLASS_NAMES[i]] = round(float(raw_probs[i]), 6)
-
     confidence = round(float(max(raw_probs)), 6)
 
     return PredictionResponse(

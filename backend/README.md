@@ -6,15 +6,13 @@ The backend serves two purposes. First, it exposes dashboard ready JSON artifact
 
 ```bash
 cd backend
-python3 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn app.main:app --reload --reload-dir app
+uvicorn app.main:app --reload
 ```
 
-The `--reload-dir app` flag scopes the file watcher to your source code only, so it does not thrash on the entire `.venv` directory.
-
-The API will be available at `http://127.0.0.1:8000`.
+The API will be available at `http://127.0.0.1:8000`.  
 Interactive docs are at `http://127.0.0.1:8000/docs`.
 
 ## Endpoints
@@ -47,3 +45,23 @@ Send a POST request to `/predict` with a JSON body:
 ```
 
 All four values must be floats between 0.1 and 10.0.
+
+Example response:
+
+```json
+{
+  "prediction": "virginica",
+  "confidence": 0.98,
+  "probabilities": {
+    "setosa": 0.0,
+    "versicolor": 0.02,
+    "virginica": 0.98
+  },
+  "input": {
+    "sepal_length": 6.7,
+    "sepal_width": 3.1,
+    "petal_length": 5.6,
+    "petal_width": 2.4
+  }
+}
+```
