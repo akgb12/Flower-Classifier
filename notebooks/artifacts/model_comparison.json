@@ -1,0 +1,18 @@
+[
+  {
+    "model": "SVM",
+    "accuracy": 0.9666666666666668
+  },
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.9583333333333334
+  },
+  {
+    "model": "KNN",
+    "accuracy": 0.9583333333333334
+  },
+  {
+    "model": "Random Forest",
+    "accuracy": 0.95
+  }
+]
