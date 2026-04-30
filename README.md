@@ -2,7 +2,18 @@
 
 A small end to end machine learning project that trains an Iris flower classification model and presents the results through a React dashboard.
 
-The project has two parts. The first page is a short model study that explains the dataset, model comparison, evaluation results, and design decisions. The second page lets a user enter flower measurements and receive a predicted Iris species from the trained model.
+The project has two pages. The home page is a short model study that explains the dataset, model comparison, evaluation results, and design decisions. The prediction page lets a user enter flower measurements and receive a predicted Iris species from the trained model.
+
+## Deployed Links
+
+Frontend  
+https://flower-classifier-nu.vercel.app
+
+Backend API  
+https://flower-classifier-api-rzrd.onrender.com
+
+FastAPI Docs  
+https://flower-classifier-api-rzrd.onrender.com/docs
 
 ## Project Overview
 
@@ -12,11 +23,14 @@ This project uses the Iris dataset from scikit learn to classify flowers into on
 - versicolor
 - virginica
 
-The dataset contains 150 samples, with 50 samples per class and four numeric features: sepal length, sepal width, petal length, and petal width. The dataset was loaded through `sklearn.datasets.load_iris`. The official scikit learn documentation describes it as a classic multiclass classification dataset with 3 classes, 150 total samples, and 4 features. [Iris dataset documentation](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html)
+The dataset contains 150 samples, with 50 samples per class and four numeric features: sepal length, sepal width, petal length, and petal width. The dataset was loaded through `sklearn.datasets.load_iris`. The official scikit learn documentation describes it as a classic multiclass classification dataset with 3 classes, 150 total samples, and 4 features.
+
+Dataset documentation  
+https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
 
 ## Tech Stack
 
-### Machine Learning
+Machine learning
 
 - Python
 - pandas
@@ -24,19 +38,19 @@ The dataset contains 150 samples, with 50 samples per class and four numeric fea
 - matplotlib
 - joblib
 
-### Backend
+Backend
 
 - FastAPI
 - Pydantic
 - Uvicorn
 
-### Frontend
+Frontend
 
 - React
 - Vite
 - CSS
 
-### Deployment
+Deployment
 
 - Render for the FastAPI backend
 - Vercel for the React frontend
@@ -93,8 +107,6 @@ The confusion matrix showed that setosa was separated very clearly, while the ma
 The feature importance results showed that petal length and petal width were the most useful features for classification. Sepal width had the lowest importance.
 
 ## Dashboard
-
-The React dashboard has two pages.
 
 ### Home Page
 
