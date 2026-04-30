@@ -1,0 +1,452 @@
+[
+  {
+    "input": {
+      "sepal_length": 4.4,
+      "sepal_width": 3.0,
+      "petal_length": 1.3,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.9613547252163326,
+      "versicolor": 0.023867245740324027,
+      "virginica": 0.014778029043343287
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.1,
+      "sepal_width": 3.0,
+      "petal_length": 4.9,
+      "petal_width": 1.8
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.011852770726744686,
+      "versicolor": 0.27414097967163287,
+      "virginica": 0.7140062496016225
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 4.9,
+      "sepal_width": 2.4,
+      "petal_length": 3.3,
+      "petal_width": 1.0
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.040236511145677424,
+      "versicolor": 0.9370938125087492,
+      "virginica": 0.022669676345573105
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.0,
+      "sepal_width": 2.3,
+      "petal_length": 3.3,
+      "petal_width": 1.0
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.029142957581391158,
+      "versicolor": 0.9513339920831072,
+      "virginica": 0.019523050335501592
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 4.4,
+      "sepal_width": 3.2,
+      "petal_length": 1.3,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.959861338420295,
+      "versicolor": 0.022635734015238385,
+      "virginica": 0.017502927564466593
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.3,
+      "sepal_width": 3.3,
+      "petal_length": 4.7,
+      "petal_width": 1.6
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.01243897819224149,
+      "versicolor": 0.9025262810329635,
+      "virginica": 0.08503474077479511
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 4.6,
+      "sepal_width": 3.6,
+      "petal_length": 1.0,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.9534587872064256,
+      "versicolor": 0.02342646007855052,
+      "virginica": 0.023114752715023994
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.4,
+      "sepal_width": 3.4,
+      "petal_length": 1.7,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.9621996054157514,
+      "versicolor": 0.023827982026999456,
+      "virginica": 0.013972412557249073
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.5,
+      "sepal_width": 3.0,
+      "petal_length": 5.2,
+      "petal_width": 2.0
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.009765385806684292,
+      "versicolor": 0.02897174627620934,
+      "virginica": 0.9612628679171067
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.4,
+      "sepal_width": 3.0,
+      "petal_length": 4.5,
+      "petal_width": 1.5
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.015381955953712105,
+      "versicolor": 0.9014935345703268,
+      "virginica": 0.08312450947596112
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 7.3,
+      "sepal_width": 2.9,
+      "petal_length": 6.3,
+      "petal_width": 1.8
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.012152843905016546,
+      "versicolor": 0.01987736630369411,
+      "virginica": 0.9679697897912894
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.9,
+      "sepal_width": 3.1,
+      "petal_length": 5.1,
+      "petal_width": 2.3
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.011277957501570821,
+      "versicolor": 0.012487607319642118,
+      "virginica": 0.9762344351787874
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.5,
+      "sepal_width": 3.0,
+      "petal_length": 5.8,
+      "petal_width": 2.2
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.008881719225218186,
+      "versicolor": 0.0025898068462721006,
+      "virginica": 0.9885284739285097
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.4,
+      "sepal_width": 3.2,
+      "petal_length": 4.5,
+      "petal_width": 1.5
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.011121361139889867,
+      "versicolor": 0.9572552408643795,
+      "virginica": 0.031623397995730725
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.0,
+      "sepal_width": 3.4,
+      "petal_length": 1.5,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.9720959239208697,
+      "versicolor": 0.015730022519761515,
+      "virginica": 0.012174053559368686
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.0,
+      "sepal_width": 3.3,
+      "petal_length": 1.4,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.9722507071986152,
+      "versicolor": 0.01600032039903506,
+      "virginica": 0.011748972402349626
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.8,
+      "sepal_width": 4.0,
+      "petal_length": 1.2,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.9558929148688082,
+      "versicolor": 0.026156094290295983,
+      "virginica": 0.017950990840895707
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.6,
+      "sepal_width": 2.5,
+      "petal_length": 3.9,
+      "petal_width": 1.1
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.00965857731825814,
+      "versicolor": 0.9836969606309324,
+      "virginica": 0.006644462050809481
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.1,
+      "sepal_width": 2.9,
+      "petal_length": 4.7,
+      "petal_width": 1.4
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.008340533061540591,
+      "versicolor": 0.9429253436960783,
+      "virginica": 0.04873412324238088
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.0,
+      "sepal_width": 3.0,
+      "petal_length": 4.8,
+      "petal_width": 1.8
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.012164302338513054,
+      "versicolor": 0.3377449532661889,
+      "virginica": 0.6500907443952978
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.4,
+      "sepal_width": 3.7,
+      "petal_length": 1.5,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.968562656782866,
+      "versicolor": 0.018297622817641572,
+      "virginica": 0.013139720399492537
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.7,
+      "sepal_width": 3.1,
+      "petal_length": 5.6,
+      "petal_width": 2.4
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.01018096806387864,
+      "versicolor": 0.003180859743342422,
+      "virginica": 0.986638172192779
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.6,
+      "sepal_width": 2.9,
+      "petal_length": 4.6,
+      "petal_width": 1.3
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.012204605692857475,
+      "versicolor": 0.9702183580068987,
+      "virginica": 0.017577036300243803
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.1,
+      "sepal_width": 2.6,
+      "petal_length": 5.6,
+      "petal_width": 1.4
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.013360429848991358,
+      "versicolor": 0.41692406907901686,
+      "virginica": 0.5697155010719918
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.4,
+      "sepal_width": 2.8,
+      "petal_length": 5.6,
+      "petal_width": 2.2
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.00880582540231995,
+      "versicolor": 0.0022731109552602434,
+      "virginica": 0.98892106364242
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.7,
+      "sepal_width": 3.0,
+      "petal_length": 5.0,
+      "petal_width": 1.7
+    },
+    "actual": "versicolor",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.013167875351445634,
+      "versicolor": 0.4076398600376609,
+      "virginica": 0.5791922646108933
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.6,
+      "sepal_width": 3.0,
+      "petal_length": 4.4,
+      "petal_width": 1.4
+    },
+    "actual": "versicolor",
+    "predicted": "versicolor",
+    "probabilities": {
+      "setosa": 0.011387048240831095,
+      "versicolor": 0.970493749803082,
+      "virginica": 0.01811920195608712
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.7,
+      "sepal_width": 3.8,
+      "petal_length": 1.7,
+      "petal_width": 0.3
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.9582926720656298,
+      "versicolor": 0.026999310024157935,
+      "virginica": 0.01470801791021225
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 6.5,
+      "sepal_width": 3.0,
+      "petal_length": 5.5,
+      "petal_width": 1.8
+    },
+    "actual": "virginica",
+    "predicted": "virginica",
+    "probabilities": {
+      "setosa": 0.010665920018337813,
+      "versicolor": 0.05972625244908856,
+      "virginica": 0.9296078275325738
+    }
+  },
+  {
+    "input": {
+      "sepal_length": 5.2,
+      "sepal_width": 3.4,
+      "petal_length": 1.4,
+      "petal_width": 0.2
+    },
+    "actual": "setosa",
+    "predicted": "setosa",
+    "probabilities": {
+      "setosa": 0.9710827405873248,
+      "versicolor": 0.016688078378632155,
+      "virginica": 0.012229181034043272
+    }
+  }
+]

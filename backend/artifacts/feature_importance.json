@@ -1,0 +1,18 @@
+[
+  {
+    "feature": "sepal_width",
+    "importance": 0.017885213270972027
+  },
+  {
+    "feature": "sepal_length",
+    "importance": 0.11587288933919555
+  },
+  {
+    "feature": "petal_width",
+    "importance": 0.4124488188404141
+  },
+  {
+    "feature": "petal_length",
+    "importance": 0.45379307854941836
+  }
+]
