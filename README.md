@@ -9,9 +9,6 @@ The project has two pages. The home page is a short model study that explains th
 Frontend  
 https://flower-classifier-nu.vercel.app
 
-Backend API  
-https://flower-classifier-api-rzrd.onrender.com
-
 FastAPI Docs  
 https://flower-classifier-api-rzrd.onrender.com/docs
 
